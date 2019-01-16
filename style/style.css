@@ -42,30 +42,37 @@ table {
 	border-spacing: 0;
 }
 
-
-section{
-	border: solid black 3px;
-	height: 100vh;
-	margin: 5px;
+#conteneur{
+	border: 2px solid black;
+	height: 600px;
+	width: 960px;
+	margin: 100px auto;
 }
 
-h1{
-	text-align: center;
-	font-size: 4em;
-	margin-top: 20%;
-	font-family: 'Coiny', cursive;
-}
-
-li{
-	background-color: 95F2D9;
+#logo{
+	border: 2px solid black;
+	height: 100px;
 	width: 100px;
-	height: 30px;
-	display: inline-block;
-	margin: 15px;
 }
 
-ul{
-	position: fixed;
-	top: 5px;  
-	right: 5px;
+header{
+	border: 2px solid black;
+	height: 150px;
+	width: 960px;
+	padding-top: 20px;
+	padding: 20px;
+}
+
+nav{
+	border: 2px solid black;
+}
+li{
+	border: 2px solid black;
+	width: 50px;
+	height: 20px;
+}
+
+article{
+	border: 2px solid black;
+
 }
